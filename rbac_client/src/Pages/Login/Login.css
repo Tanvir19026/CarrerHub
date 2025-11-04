@@ -1,0 +1,191 @@
+/* Container */
+.login-container {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #FEFEFE, #b0adad);
+    padding: 20px;
+}
+
+/* Left Section */
+.login-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-image {
+    width: 80%;
+    max-width: 400px;
+    animation: slideInLeft 1s ease forwards;
+}
+
+/* Right Section */
+.login-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Glass Card Form */
+.glass-card {
+    background: rgba(18, 9, 9, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: 16px;
+    padding: 40px;
+    width: 100%;
+    max-width: 400px;
+    color: #fff;
+    animation: slideInRight 1s ease forwards;
+    text-align: center;
+}
+
+.login-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+.social-btn {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.google-btn {
+    background-color: #db4437;
+    color: #fff;
+}
+.google-btn:hover {
+    background-color: #c1351d;
+}
+
+.github-btn {
+    background-color: #333;
+    color: #fff;
+}
+.github-btn:hover {
+    background-color: #000;
+}
+
+/* User info */
+.user-info img.user-photo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Logout button */
+.logout-btn {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #ff4d91;
+    color: #fff;
+}
+.logout-btn:hover {
+    background-color: #ff1f70;
+}
+
+/* Signup link */
+.signup-link {
+    margin-top: 20px;
+    font-size: 14px;
+}
+.signup-link a {
+    color: #ffd369;
+    text-decoration: none;
+    font-weight: bold;
+}
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+/* Animations */
+@keyframes slideInLeft {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+@keyframes slideInRight {
+    from { transform: translateX(50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .login-container {
+        flex-direction: column;
+    }
+    .login-left {
+        margin-bottom: 20px;
+    }
+}
+/* Email/Password Inputs */
+.login-input {
+    width: 100%;
+    padding: 15px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+}
+
+/* Password wrapper for toggle icon */
+.password-wrapper {
+    position: relative;
+}
+.toggle-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: #222; /* eye icon visible */
+}
+
+/* Login button */
+.login-btn {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+    background-color: #bc0551;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-btn:hover {
+    background-color: #ff4d91;
+}
+
+/* Error message */
+.error-message {
+    color: #ff6b6b;
+    font-size: 14px;
+    margin: 8px 0;
+    text-align: center;
+}
+.hr{
+    margin: 20px;
+}
+/* Social icon styling */
+.social-icon {
+    margin-right: 10px;
+    font-size: 20px;
+    vertical-align: middle;
+}
