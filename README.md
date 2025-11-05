@@ -24,12 +24,24 @@ CareerWave is a dynamic MERN stack application with a **Role-Based Access Contro
   - Communicate with applicants.
      ![Recruiter Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/f89afa80c4ace9462f6be1a2829670194e396a9a/CareerWave/Recruiter/applicationForJob.jpg)
      ![Recruiter Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/f89afa80c4ace9462f6be1a2829670194e396a9a/CareerWave/Recruiter/applicationStatusDo.jpg)
+     ![Recruiter Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/311c842fdc6bd36ff1c5f6b5656316c75a77803a/CareerWave/Recruiter/JobPostDetails.jpg)
+     ![Recruiter Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/311c842fdc6bd36ff1c5f6b5656316c75a77803a/CareerWave/Recruiter/UpdateJobInfo.jpg)
     
 - **Applicant  DashBoard**:
   - Browse and apply for jobs.
   - Track application status.
   - update and can take Interview date from application
-- **Responsive UI**: Modern and user-friendly interface using React chart
+    ![Applicant Page](https://github.com/Tanvir19026/CarrerHub/blob/311c842fdc6bd36ff1c5f6b5656316c75a77803a/CareerWave/HomePage/JobApplyForm.jpg)
+    ![Applicant Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/311c842fdc6bd36ff1c5f6b5656316c75a77803a/CareerWave/Applicant/Application.jpg)
+    ![Applicant Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/311c842fdc6bd36ff1c5f6b5656316c75a77803a/CareerWave/Applicant/UpdateApplication.jpg)
+  **Home Page**
+      ![Home Page](https://github.com/Tanvir19026/CarrerHub/blob/311c842fdc6bd36ff1c5f6b5656316c75a77803a/CareerWave/HomePage/BannerWithAnimation.jpg)
+      ![Home Page]( https://github.com/Tanvir19026/CarrerHub/blob/311c842fdc6bd36ff1c5f6b5656316c75a77803a/CareerWave/HomePage/JobList.jpg)
+     ![Home Page]( https://github.com/Tanvir19026/CarrerHub/blob/311c842fdc6bd36ff1c5f6b5656316c75a77803a/CareerWave/HomePage/LoginPage.jpg)
+    
+    
+    
+
 - **Secure Authentication**: Protects routes based on roles.
 
 ## 💻 Tech Stack
