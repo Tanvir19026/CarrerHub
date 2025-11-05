@@ -13,6 +13,7 @@ CareerWave is a dynamic MERN stack application with a **Role-Based Access Contro
   - Oversee job postings.
   - Control system-wide settings.
   - Can see total recruiter and applicant list and delete them
+    ![Admin Dashboard]()
 - **Recruiter DashBoard**:
   - Create and manage job listings.
   - View and track applications.
