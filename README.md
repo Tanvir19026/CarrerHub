@@ -10,17 +10,21 @@ CareerWave is a dynamic MERN stack application with a **Role-Based Access Contro
 - **Role-Based Access Control**: Different permissions and views for Admin, Recruiter, and Applicant.
 - **Admin DashBoard**:
   - Manage all users and roles.
-  - Oversee job postings.
   - Control system-wide settings.
   - Can see total recruiter and applicant list and delete them
+    
     ![Admin Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/71c6cfb53d71f451da3e4585aef6a6b018cd5bc6/CareerWave/Admin/ApplicantList.jpg)
     ![Admin Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/5d174ba1cee572bfe4d4fab34900e7fc43f37e70/CareerWave/Admin/recruiterList.jpg)
+    ![Admin Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/f89afa80c4ace9462f6be1a2829670194e396a9a/CareerWave/Admin/profile.jpg)
     
 - **Recruiter DashBoard**:
   - Create and manage job listings.
   - View and track applications.
   - Can set application status and view resume 
   - Communicate with applicants.
+     ![Recruiter Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/f89afa80c4ace9462f6be1a2829670194e396a9a/CareerWave/Recruiter/applicationForJob.jpg)
+     ![Recruiter Dashboard](https://github.com/Tanvir19026/CarrerHub/blob/f89afa80c4ace9462f6be1a2829670194e396a9a/CareerWave/Recruiter/applicationStatusDo.jpg)
+    
 - **Applicant  DashBoard**:
   - Browse and apply for jobs.
   - Track application status.
