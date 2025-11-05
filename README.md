@@ -1,6 +1,6 @@
 # CareerWave – Role-Based Job Portal
 
-CareerWave is a dynamic MERN stack application with a **Role-Based Access Control (RBAC)** system. It caters to three types of users: **Admin**, **Recruiter**, and **Applicant**, providing tailored functionalities for each role. The system ensures secure and efficient workflows for both organizations and job seekers.
+CareerWave is a dynamic MERN stack application with a **Role-Based Access Control (RBAC)** system as well as crud operation. It caters to three types of users: **Admin**, **Recruiter**, and **Applicant**, providing tailored functionalities for each role and also use **react Chart** for better ui in dashboard section. The system ensures secure and efficient workflows for both organizations and job seekers.In addition, **Jwt** ,**cookie parse**r, and **firebase authentication** system also used.
 
 ## 🚀 Live Demo
 [Click here to visit CareerWave](https://resonant-kleicha-c82a67.netlify.app/)
@@ -8,38 +8,30 @@ CareerWave is a dynamic MERN stack application with a **Role-Based Access Contro
 ## 🛠 Features
 
 - **Role-Based Access Control**: Different permissions and views for Admin, Recruiter, and Applicant.
-- **Admin**:
+- **Admin DashBoard**:
   - Manage all users and roles.
   - Oversee job postings.
   - Control system-wide settings.
-- **Recruiter**:
+  - Can see total recruiter and applicant list and delete them
+- **Recruiter DashBoard**:
   - Create and manage job listings.
   - View and track applications.
+  - Can set application status and view resume 
   - Communicate with applicants.
-- **Applicant**:
+- **Applicant  DashBoard**:
   - Browse and apply for jobs.
   - Track application status.
-- **Responsive UI**: Modern and user-friendly interface.
+  - update and can take Interview date from application
+- **Responsive UI**: Modern and user-friendly interface using React chart
 - **Secure Authentication**: Protects routes based on roles.
-
-## 📸 Screenshots
-
-**Admin Dashboard** – Manage users, roles, and jobs:  
-![Admin Dashboard](screenshots/admin-dashboard.png)
-
-**Recruiter Dashboard** – Post and manage jobs:  
-![Recruiter Dashboard](screenshots/recruiter-dashboard.png)
-
-**Applicant Dashboard** – Browse and apply for jobs:  
-![Applicant Dashboard](screenshots/applicant-dashboard.png)
 
 ## 💻 Tech Stack
 
-- **Frontend:** React, Redux (if used), Tailwind CSS / CSS
+- **Frontend:** React, Tailwind CSS / CSS. React chart, Framer animation
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
-- **Authentication:** Firebase / JWT (whichever you used)
-- **Deployment:** Netlify (Frontend), Heroku / Render / Vercel (Backend)
+- **Authentication:** Firebase / JWT ,cookie
+- **Deployment:** Netlify (Frontend), Render (Backend)
 
-## 📂 Project Structure
+
 
